@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunia IoT: Etika, Privasi, dan Masa Depan Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9fafb;
+        }
+        
+        .hero-image {
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gradient-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%);
+        }
+        
+        .article-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .highlight-box {
+            border-left: 4px solid #4f46e5;
+            background-color: #f8fafc;
+        }
+        
+        .tag {
+            transition: all 0.3s ease;
+        }
+        
+        .tag:hover {
+            background-color: #4f46e5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="relative">
+        <div class="hero-image">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*23KW09FeuKDfdhWo1EyAQQ.png" 
+     alt="Gambar konsep digital IoT futuristik dengan latar jaringan koneksi berwarna biru neon yang menggambarkan kota cerdas dengan berbagai perangkat yang saling terhubung" 
+     class="w-full h-full object-cover">
+
+            <div class="gradient-overlay flex items-center justify-center">
+                <div class="text-center px-4">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Dunia IoT: Etika, Privasi, dan Masa Depan Digital</h1>
+                    <p class="text-xl text-gray-200 max-w-3xl mx-auto">Menjelajahi tantangan etika dan peluang inovasi di era Internet of Things</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600">IoT Insights</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#etika" class="text-gray-700 hover:text-indigo-600">Etika & Privasi</a>
+                <a href="#inovasi" class="text-gray-700 hover:text-indigo-600">Inovasi & Masa Depan</a>
+                <a href="#diskusi" class="text-gray-700 hover:text-indigo-600">Diskusi</a>
+            </div>
+            <button class="md:hidden text-gray-700">
+                <!-- Mobile menu icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <section id="etika" class="mb-20">
+            <div class="flex items-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-800">Etika dan Privasi dalam IoT</h2>
+                <span class="ml-4 px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium">Topik Penting</span>
+            </div>
+            
+            <article class="bg-white rounded-xl shadow-md overflow-hidden article-card mb-10">
+                <div class="p-8">
+                    <div class="flex items-center mb-6">
+                        <img src="https://www.gravatar.com/avatar/?d=mp&s=100" alt="Gambar anonim pengguna" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <p class="font-semibold">Evan Eben Haezer Purba - 202231078</p>
+                            <p class="text-gray-500 text-sm">Diperbarui 13 Juli 2025</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-lg text-gray-700 mb-6">Internet of Things (IoT) telah mengubah cara kita berinteraksi dengan teknologi, menawarkan kemudahan dan efisiensi. Namun, kemajuan ini juga membawa tantangan serius dalam hal
+                         <span class="font-semibold text-indigo-600"> etika</span> dan <span class="font-semibold text-indigo-600">privasi</span>. Penting untuk memahami dilema etika dan tantangan privasi yang muncul agar inovasi ini dapat dilakukan secara bertanggung jawab di era konektivitas yang semakin meluas.</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10a1 1 0 01-1.64 0l-7-10A1 1 0 014 7h4V2a1 1 0 011.707-.708L10.472 3.3a1 1 0 01.828 0l1.7-.847a1 1 0 011.302 1.593z" clip-rule="evenodd" />
+                                </svg>
+                                Prinsip Etika IoT
+                            </h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Transparansi:</strong> Pengguna harus diberi tahu tentang data apa yang dikumpulkan, bagaimana data tersebut digunakan, dan siapa yang memiliki akses ke data tersebut.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Keamanan:</strong> Perangkat IoT harus dirancang dengan mempertimbangkan keamanan untuk melindungi data pengguna dari akses yang tidak sah dan potensi pelanggaran data.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Kepatuhan:</strong> Pengembang dan penyedia layanan IoT harus mematuhi regulasi dan standar yang berlaku terkait perlindungan data dan privasi.</span>
+                                </li>
+                                 <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Keadilan:</strong> Penggunaan teknologi IoT harus mempertimbangkan dampak sosial dan memastikan bahwa tidak ada kelompok yang dirugikan.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                                </svg>
+                                Tantangan Privasi
+                            </h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong> Kerentanan pada Setiap Lapisan Sistem:</strong> 
+                                        Mulai dari sensor di perangkat hingga penyimpanan di cloud, setiap tahapan dalam alur pengiriman data memiliki potensi celah keamanan yang dapat dimanfaatkan oleh pihak tidak bertanggung jawab.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Data Shadow/Pengumpulan Data Tersembunyi:</strong> 
+                                         Beberapa perangkat IoT dapat tetap mengumpulkan informasi meskipun dalam keadaan nonaktif, sehingga memunculkan kekhawatiran terkait privasi pengguna tanpa sepengetahuan mereka.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-indigo-500 mr-2">•</span>
+                                    <span><strong>Kompleksitas Regulasi Global:</strong> 
+                                         Adanya peraturan seperti General Data Protection Regulation (GDPR) dan kebijakan perlindungan data lainnya menuntut para pelaku industri untuk memahami serta mematuhi berbagai standar hukum yang berbeda-beda di tiap wilayah, yang sering kali menimbulkan tantangan tersendiri dalam pengelolaan data secara global.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-box p-6 rounded-lg mb-8">
+    <h4 class="font-bold text-lg mb-3 text-gray-800">Kasus Nyata: Praktik Pengumpulan Data yang Tidak Transparan</h4>
+    <p class="text-gray-700">
+        Pada awal 2025, perusahaan asuransi Allstate digugat karena diduga mengumpulkan dan menjual data perilaku berkendara dari jutaan pengguna melalui aplikasi pihak ketiga tanpa persetujuan yang jelas. Kasus ini menegaskan pentingnya transparansi dan etika dalam pengelolaan data IoT. 
+        <a href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-allstate-and-arity-unlawfully-collecting-using-and-selling-over-45" target="_blank" class="text-blue-600 underline">Baca selengkapnya</a>
+    </p>
+</div>
+
+                    
+                  <img src="https://img.freepik.com/premium-photo/lock-icon-cyber-security-digital-data-network-protection-future-technology-network-background-concept_24070-914.jpg" 
+     alt="Diagram alur data IoT yang menunjukkan titik-titik kerentanan keamanan dari perangkat pengguna hingga server cloud dengan ikon peringatan di setiap tahap transfer data" 
+     class="w-full rounded-lg mb-6">
+
+                    
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Solusi Praktis untuk Pengguna IoT</h3>
+                    <p class="text-gray-700 mb-6">Sebagai konsumen, Anda memiliki kendali lebih besar dari yang Anda bayangkan dalam menjaga keamanan data pribadi. Berikut beberapa langkah sederhana namun efektif yang dapat Anda terapkan:</p>
+                    
+                    <div class="grid md:grid-cols-3 gap-4 mb-8">
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <h4 class="font-semibold mb-2 text-gray-800">1. Audit Perangkat</h4>
+                            <p class="text-sm text-gray-600">Periksa seluruh perangkat yang terhubung ke jaringan rumah Anda. Matikan fitur yang tidak digunakan, terutama yang berkaitan dengan akses lokasi, mikrofon, atau kamera.</p>
+                        </div>
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <h4 class="font-semibold mb-2 text-gray-800">2. Gunakan Jaringan Terpisah</h4>
+                            <p class="text-sm text-gray-600">Buat jaringan WiFi khusus untuk perangkat IoT. Ini membantu membatasi akses perangkat ke data penting di jaringan utama, sehingga lebih aman dari potensi peretasan.</p>
+                        </div>
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <h4 class="font-semibold mb-2 text-gray-800">3. Pembaruan Berkala</h4>
+                            <p class="text-sm text-gray-600">Selalu perbarui firmware atau perangkat lunak perangkat Anda. Pembaruan ini biasanya mencakup perbaikan keamanan penting yang melindungi Anda dari celah atau serangan terbaru.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t border-gray-200 pt-6 flex flex-wrap gap-3">
+                        <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#EtikaTeknologi</span>
+                        <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#KeamananData</span>
+                        <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#GDPR</span>
+                        <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#PrivasiDigital</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section id="inovasi" class="mb-20">
+    <div class="flex items-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-800">Inovasi dan Masa Depan IoT</h2>
+        <span class="ml-4 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Trending</span>
+    </div>
+
+    <article class="bg-white rounded-xl shadow-md overflow-hidden article-card">
+        <div class="p-8">
+            <div class="flex items-center mb-6">
+                <img src="https://www.gravatar.com/avatar/?d=mp&s=100" alt="Gambar anonim pengguna" class="w-12 h-12 rounded-full object-cover mr-4">
+                <div>
+                    <p class="font-semibold">Evan Eben Haezer Purba - 202231078</p>
+                    <p class="text-gray-500 text-sm">Diperbarui 13 Juli 2025</p>
+                </div>
+            </div>
+
+            <p class="text-lg text-gray-700 mb-6">
+                Inovasi dalam Internet of Things (IoT) terus mengalami kemajuan pesat, menghadirkan solusi revolusioner yang mengubah cara kita hidup, bekerja, dan berinteraksi. 
+                Berikut adalah berbagai <span class="font-semibold text-green-600">tren inovatif</span> yang diprediksi akan membentuk masa depan ekosistem IoT dalam satu dekade ke depan.
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-6 mb-8">
+                <div class="md:w-1/2">
+                    <img src="https://th.bing.com/th/id/R.b896edecf881b36e06d5d93fc72bd9b5?rik=h2r%2bSUB8WPuWIw&riu=http%3a%2f%2fstudent-activity.binus.ac.id%2fhimtri%2fwp-content%2fuploads%2fsites%2f6%2f2021%2f09%2fPentingnya-Internet-of-Things-IOT_548530.jpg&ehk=daQFUnQ%2bZr4EBTtIg6CdY1KGqxzPAtEdPVc16CQvWaI%3d&risl=&pid=ImgRaw&r=0" 
+     alt="Infografis perkembangan teknologi IoT dari sensor sederhana hingga jaringan AI otonom dengan grafik pertumbuhan eksponensial" 
+     class="w-full h-auto rounded-lg">
+
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">5 Tren IoT 2023–2030</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <span class="bg-green-100 text-green-800 rounded-lg px-3 py-1 text-sm font-bold mr-3 mt-1">1</span>
+                            <div>
+                                <h4 class="font-medium text-gray-800">AI di Edge</h4>
+                                <p class="text-gray-600 text-sm">Pemrosesan data dilakukan langsung pada perangkat tepi, memungkinkan respon cepat tanpa ketergantungan pada cloud.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="bg-green-100 text-green-800 rounded-lg px-3 py-1 text-sm font-bold mr-3 mt-1">2</span>
+                            <div>
+                                <h4 class="font-medium text-gray-800">Jaringan 6G</h4>
+                                <p class="text-gray-600 text-sm">Teknologi 6G yang sedang dikembangkan diprediksi menghadirkan kecepatan terahertz untuk aplikasi IoT masa depan.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="bg-green-100 text-green-800 rounded-lg px-3 py-1 text-sm font-bold mr-3 mt-1">3</span>
+                            <div>
+                                <h4 class="font-medium text-gray-800">Sensasi Digital</h4>
+                                <p class="text-gray-600 text-sm">Sensor haptik akan menghadirkan pengalaman digital dengan dimensi sentuhan, meningkatkan interaksi pengguna di berbagai bidang.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Kota Cerdas yang Benar-benar Cerdas</h3>
+                    <p class="text-gray-700 mb-4">Singapura menjadi pelopor melalui inisiatif Smart Nation, dengan implementasi teknologi seperti:</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Lampu jalan otomatis yang menyesuaikan intensitas berdasarkan pergerakan warga</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Sistem drainase prediktif untuk mencegah banjir</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Pengaturan lalu lintas real-time untuk mengurangi kemacetan hingga 30%</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Revolusi Kesehatan Digital</h3>
+                    <p class="text-gray-700 mb-4">Teknologi IoT dalam bidang kesehatan terus berkembang melalui inovasi seperti:</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Patch kulit elektronik yang memantau tanda vital tubuh secara real-time</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Pil pintar dengan sensor mini untuk diagnostik internal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔</span>
+                            <span>Asisten berbasis AI untuk mendampingi pasien demensia</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold text-lg mb-3 text-gray-800">Menurut Pakar: Dr. Santi Wijaya, Ahli IoT</h4>
+                <div class="flex items-start">
+                  <img src="https://www.gravatar.com/avatar/?d=mp&s=100" alt="Gambar anonim pengguna" class="w-12 h-12 rounded-full object-cover mr-4">
+                    <div>
+                        <p class="text-gray-700 italic">"Tantangan terbesar bukan lagi membuat perangkat saling terhubung, melainkan membangun ekosistem IoT yang berkelanjutan dan berorientasi pada manusia. Di tahun 2030, IoT akan menjadi bagian tak terpisahkan dari kehidupan modern yang bekerja secara senyap namun sangat vital."</p>
+                        <p class="text-sm text-gray-500 mt-2">- Dr. Santi Wijaya, Kepala Riset IoT Institute</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-semibold mb-4 text-gray-800">Memetakan Masa Depan</h3>
+            <p class="text-gray-700 mb-6">Berdasarkan analisis Gartner, perusahaan riset dan konsultasi teknologi terkemuka di dunia, berikut prediksi pertumbuhan pasar IoT global hingga tahun 2030:</p>
+
+            <div class="overflow-x-auto mb-8">
+                <table class="min-w-full bg-white rounded-lg overflow-hidden">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="py-3 px-4 text-left text-gray-700">Sektor</th>
+                            <th class="py-3 px-4 text-left text-gray-700">Nilai 2023 ($M)</th>
+                            <th class="py-3 px-4 text-left text-gray-700">Proyeksi 2030 ($M)</th>
+                            <th class="py-3 px-4 text-left text-gray-700">Pertumbuhan</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="py-3 px-4">Kesehatan</td>
+                            <td class="py-3 px-4">150,000</td>
+                            <td class="py-3 px-4">520,000</td>
+                            <td class="py-3 px-4 text-green-600 font-medium">+247%</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4">Manufaktur</td>
+                            <td class="py-3 px-4">220,000</td>
+                            <td class="py-3 px-4">620,000</td>
+                            <td class="py-3 px-4 text-green-600 font-medium">+182%</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4">Pertanian</td>
+                            <td class="py-3 px-4">52,000</td>
+                            <td class="py-3 px-4">180,000</td>
+                            <td class="py-3 px-4 text-green-600 font-medium">+246%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="border-t border-gray-200 pt-6 flex flex-wrap gap-3">
+                <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#IoT2025</span>
+                <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#KotaCerdas</span>
+                <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#KesehatanDigital</span>
+                <span class="tag px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">#RevolusiIndustri4</span>
+            </div>
+        </div>
+    </article>
+</section>
+
+        <section id="diskusi" class="mb-20">
+            <div class="bg-white rounded-xl shadow-md p-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Bagaimana Pandangan Anda?</h3>
+                <p class="text-gray-700 mb-6">Kami ingin mendengar pemikiran Anda tentang masa depan IoT dan tantangan etikanya. Apa prediksi atau kekhawatiran yang Anda miliki?</p>
+                
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nama</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="comment" class="block text-sm font-medium text-gray-700 mb-1">Komentar</label>
+                        <textarea id="comment" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                    </div>
+                    <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">Kirim Komentar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">IoT Insights</h4>
+                    <p class="mb-4">Menjelajahi dunia teknologi IoT dengan analisis mendalam dan perspektif segar.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">LinkedIn</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Navigasi</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Beranda</a></li>
+                        <li><a href="#" class="hover:text-white">Artikel</a></li>
+                        <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
+                        <li><a href="#" class="hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Sumber Daya</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Glosarium IoT</a></li>
+                        <li><a href="#" class="hover:text-white">Studi Kasus</a></li>
+                        <li><a href="#" class="hover:text-white">Laporan Industri</a></li>
+                        <li><a href="#" class="hover:text-white">Alat Bantu</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Berlangganan</h4>
+                    <p class="mb-4">Dapatkan artikel terbaru langsung ke inbox Anda</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Email Anda" class="px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-900 w-full">
+                        <button class="bg-indigo-600 text-white px-4 py-2 rounded-r-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Kirim</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+                <p>&copy; 2023 IoT Insights. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.querySelector('button.md\\:hidden').addEventListener('click', function() {
+            const menu = document.querySelector('.hidden.md\\:flex');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex', 'flex-col', 'absolute', 'top-16', 'left-0', 'right-0', 'bg-white', 'p-4', 'space-y-4', 'shadow-md');
+            } else {
+                menu.classList.add('hidden');
+                menu.classList.remove('flex', 'flex-col', 'absolute', 'top-16', 'left-0', 'right-0', 'bg-white', 'p-4', 'space-y-4', 'shadow-md');
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
